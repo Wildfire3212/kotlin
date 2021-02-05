@@ -7,19 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
-        android:id="@+id/camara"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:text="Tomar Foto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="608dp" />
+        android:id="@+id/btnTomarFoto"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:text="Pulsa para abrir Cámara"
+        />
 
     <ImageView
-        android:id="@+id/img"
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="600dp"
-        android:layout_marginTop="30dp"
-        ></ImageView>
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+
+
 </LinearLayout>
